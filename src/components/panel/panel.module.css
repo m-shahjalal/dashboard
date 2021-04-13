@@ -1,0 +1,55 @@
+.panel {
+	width: 20vw;
+	height: 100vh;
+	background: linear-gradient(
+		172.89deg,
+		#0354ad 0%,
+		rgba(8, 133, 219, 0.74) 100.74%
+	);
+}
+.logo {
+	width: 200px;
+	padding: 20px;
+	margin: 0 auto;
+}
+.img {
+	width: 100%;
+}
+.list {
+	padding: 20px;
+}
+
+.item {
+	border: 1px solid rgba(255, 255, 255, 0);
+	margin: 20px 0;
+	background: linear-gradient(172.89deg, #0354ad80 0%, #0354ad90 100.74%);
+	border-radius: 10px;
+	transition: all 0.3s ease-in;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.575);
+}
+.link {
+	padding: 20px;
+	color: #ecf1f9;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2rem;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.3s ease-out;
+	border-radius: 10px;
+}
+
+.link:hover {
+	background-color: #f72585;
+}
+
+.item:hover {
+	border-radius: 10px;
+}
+
+.arrow {
+	width: 1rem;
+}

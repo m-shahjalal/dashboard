@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
-import Panel from '../components/panel/Panel';
 import store from '../store/store';
+import './reset.css';
 import './App.css';
 import AppRouter from './Route';
 
