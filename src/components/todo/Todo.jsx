@@ -5,14 +5,11 @@ const Todo = () => {
 	return (
 		<div className={styles.todo}>
 			<h3 className={styles.lead}>TO DO</h3>
-			<ul className={styles.list}>
-				<li className={styles.item}>
-					<Link>1. First todo</Link>
-				</li>
-				<li className={styles.item}>
-					<Link>2. Second todo</Link>
-				</li>
-			</ul>
+			<div className={styles.list}>
+				<Link className={styles.item}>1. First todo</Link>
+				<Link className={styles.item}>2. Second todo</Link>
+				<Link className={styles.item}>3. Third todo</Link>
+			</div>
 		</div>
 	);
 };

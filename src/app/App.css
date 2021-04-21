@@ -4,3 +4,12 @@
 	height: 100%;
 	position: relative;
 }
+
+.container {
+	display: flex;
+	justify-content: stretch;
+	align-content: stretch;
+}
+.column2 {
+	flex-basis: 100%;
+}

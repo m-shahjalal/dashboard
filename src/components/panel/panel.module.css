@@ -1,11 +1,21 @@
 .panel {
-	width: 20vw;
-	height: 100vh;
+	min-width: 300px;
+	width: 15vw;
 	background: linear-gradient(
 		172.89deg,
 		#0354ad 0%,
 		rgba(8, 133, 219, 0.74) 100.74%
 	);
+	height: 100%;
+	position: relative;
+}
+.innerPanel {
+	min-width: 300px;
+	width: 15vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
 }
 .logo {
 	width: 200px;
@@ -23,9 +33,9 @@
 	border: 1px solid rgba(255, 255, 255, 0);
 	margin: 20px 0;
 	background: linear-gradient(172.89deg, #0354ad80 0%, #0354ad90 100.74%);
-	border-radius: 10px;
+	box-shadow: 0 7px 14px 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%);
+	border-radius: 0.375rem;
 	transition: all 0.3s ease-in;
-	box-shadow: 0 0 2px rgba(0, 0, 0, 0.575);
 }
 .link {
 	padding: 20px;
@@ -33,13 +43,13 @@
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.2rem;
+	font-size: 0.822rem;
 	text-decoration: none;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	transition: all 0.3s ease-out;
-	border-radius: 10px;
+	border-radius: 0.125rem;
 }
 
 .link:hover {
@@ -47,7 +57,7 @@
 }
 
 .item:hover {
-	border-radius: 10px;
+	border-radius: 0.125rem;
 }
 
 .arrow {

@@ -1,21 +1,21 @@
 import { Link } from 'react-router-dom';
-import avatar from '../../assets/avatar.png';
+import avatar from '../../assets/icons/teach.svg';
 import styles from './lesson.module.css';
 
 const Lesson = () => {
 	return (
 		<div className={styles.lesson}>
-			<h3>Upcoming lesson</h3>
+			<h3 className={styles.lead}>Upcoming lessons</h3>
 			<ul className={styles.list}>
-				<li>
-					<Link className={styles.item}>
+				<li className={styles.item}>
+					<Link className={styles.link}>
 						<div>
-							<span>Jan 10</span>
-							<span>04:40 PM</span>
+							<p className={styles.paragraph}>Jan 10</p>
+							<p className={styles.paragraph}>04:40 PM</p>
 						</div>
 						<div>
-							<span>Chapter</span>
-							<span>Higher Math</span>
+							<p className={styles.paragraph}>Chapter</p>
+							<p className={styles.paragraph}>Higher Math</p>
 						</div>
 						<div className={styles.avatar}>
 							<img src={avatar} alt='avatar' />
@@ -23,15 +23,15 @@ const Lesson = () => {
 					</Link>
 				</li>
 
-				<li>
-					<Link className={styles.item}>
+				<li className={styles.item}>
+					<Link className={styles.link}>
 						<div>
-							<span>Jan 10</span>
-							<span>04:40 PM</span>
+							<p className={styles.paragraph}>Jan 10</p>
+							<p className={styles.paragraph}>04:40 PM</p>
 						</div>
 						<div>
-							<span>Chapter</span>
-							<span>Higher Math</span>
+							<p className={styles.paragraph}>Chapter</p>
+							<p className={styles.paragraph}>Higher Math</p>
 						</div>
 						<div className={styles.avatar}>
 							<img src={avatar} alt='avatar' />

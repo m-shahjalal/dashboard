@@ -1,0 +1,26 @@
+.footer {
+	background: #003049;
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding: 30px 0;
+}
+
+.col {
+	padding: 0 30px;
+}
+
+.lead {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: whitesmoke;
+}
+.list {
+	padding-top: 20px;
+}
+.item {
+	margin-bottom: 15px;
+	color: white !important;
+}

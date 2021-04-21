@@ -1,9 +1,7 @@
+import Community from '../components/community/Community';
+
 const ForumPage = () => {
-	return (
-		<div>
-			<h1>Forum page</h1>
-		</div>
-	);
+	return <Community />;
 };
 
 export default ForumPage;

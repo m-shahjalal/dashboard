@@ -3,7 +3,8 @@ import styles from './achievement.module.css';
 export const Achievement = () => {
 	return (
 		<div className={styles.achievement}>
-			<h2 className={styles.lead}>achievement</h2>
+			<h2 className={styles.lead}>Your Achievements</h2>
+			<hr />
 			<ul className={styles.list}>
 				<li className={styles.item}>1. completed course one</li>
 				<li className={styles.item}>2. completed course two</li>

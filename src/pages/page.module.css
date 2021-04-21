@@ -1,0 +1,14 @@
+.home {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 140px;
+}
+.coursePage {
+	min-width: 400px;
+	width: 74vw;
+	margin-left: 40px;
+	margin-top: 140px;
+}
