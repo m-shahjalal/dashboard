@@ -8,11 +8,13 @@ const Form = () => {
 				type='text'
 				name='title'
 				id='title'
+				placeholder='type the title'
 			/>
 			<textarea
 				className={styles.question}
 				name='question'
 				id='question'
+				placeholder='Your Description'
 			/>
 			<input
 				className={styles.submit}

@@ -1,9 +1,6 @@
+import Achieve from '../components/achievement/Achievement';
 const Achievement = () => {
-	return (
-		<div>
-			<h1>Achievement page</h1>
-		</div>
-	);
+	return <Achieve />;
 };
 
 export default Achievement;

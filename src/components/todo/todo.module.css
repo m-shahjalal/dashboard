@@ -1,0 +1,28 @@
+.todo {
+	background: #ffffff;
+	box-shadow: 0 7px 14px 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%);
+	border-radius: 0.375rem;
+	width: 300px;
+	height: 300px;
+}
+.lead {
+	color: #5e6e82;
+	padding-bottom: 0px;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.list {
+	padding: 10px;
+}
+
+.item {
+	text-decoration: none;
+	color: #5e6e82;
+	display: block;
+	font-size: 0.822rem;
+	border-bottom: 1px solid #edf2f9;
+	padding: 20px 0 8px 10px;
+}

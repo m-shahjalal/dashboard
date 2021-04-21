@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
 html,
 body,
 div,
@@ -122,4 +123,13 @@ q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+html,
+body {
+	background-color: #ecf1f9;
+	font-family: 'Work Sans', sans-serif;
+}
+a {
+	color: #5e6e82;
+	text-decoration: none;
 }
