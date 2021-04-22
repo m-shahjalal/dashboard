@@ -9,6 +9,30 @@
 	height: 100%;
 	position: relative;
 }
+
+.hamburger {
+	display: none;
+	width: 40px;
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+	cursor: pointer;
+	background: linear-gradient(
+		172.89deg,
+		#0354ad 0%,
+		rgba(8, 133, 219, 0.74) 100.74%
+	);
+	padding: 5px;
+	border-radius: 0.375rem;
+	color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+	.hamburger {
+		display: block;
+	}
+}
+
 .innerPanel {
 	min-width: 300px;
 	width: 15vw;

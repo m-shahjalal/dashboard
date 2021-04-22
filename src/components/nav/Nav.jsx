@@ -9,7 +9,7 @@ const Nav = () => {
 			<div className={styles.notification}>
 				<img className={styles.bell} src={bell} alt='bell' />
 			</div>
-			<Link className={styles.link}>
+			<Link to='#' className={styles.link}>
 				<p className={styles.name}>shahjalal</p>
 				<div className={styles.avatar}>
 					<img

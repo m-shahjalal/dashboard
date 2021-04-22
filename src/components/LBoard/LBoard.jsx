@@ -6,9 +6,15 @@ const LBoard = () => {
 		<div className={styles.lBoard}>
 			<h3 className={styles.lead}>Top Chart</h3>
 			<ul className={styles.list}>
-				<Link className={styles.item}>1. The first Mna</Link>
-				<Link className={styles.item}>2. Mr. X</Link>
-				<Link className={styles.item}>2. Mr. Third man</Link>
+				<Link to='#' className={styles.item}>
+					1. The first Mna
+				</Link>
+				<Link to='#' className={styles.item}>
+					2. Mr. X
+				</Link>
+				<Link to='#' className={styles.item}>
+					2. Mr. Third man
+				</Link>
 			</ul>
 		</div>
 	);

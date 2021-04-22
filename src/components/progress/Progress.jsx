@@ -6,7 +6,7 @@ const Progress = () => {
 	return (
 		<div className={styles.progress}>
 			<h3 className={styles.lead}>Total progress</h3>
-			<Bar />
+			<Bar className={styles.bar} />
 			<ul className={styles.list}>
 				<li className={styles.item}>
 					<Link to='#'>1. First todo</Link>

@@ -7,7 +7,9 @@ const Course = () => {
 		<div className={styles.course}>
 			<div className={styles.top}>
 				<h3 className={styles.lead}>My Courses</h3>
-				<Link className={styles.all}>See all Courses</Link>
+				<Link to='/course' className={styles.all}>
+					See all Courses
+				</Link>
 			</div>
 			<ul className={styles.list}>
 				<li className={styles.item}>

@@ -8,7 +8,7 @@ const Lesson = () => {
 			<h3 className={styles.lead}>Upcoming lessons</h3>
 			<ul className={styles.list}>
 				<li className={styles.item}>
-					<Link className={styles.link}>
+					<Link to='#' className={styles.link}>
 						<div>
 							<p className={styles.paragraph}>Jan 10</p>
 							<p className={styles.paragraph}>04:40 PM</p>
@@ -24,7 +24,7 @@ const Lesson = () => {
 				</li>
 
 				<li className={styles.item}>
-					<Link className={styles.link}>
+					<Link to='#' className={styles.link}>
 						<div>
 							<p className={styles.paragraph}>Jan 10</p>
 							<p className={styles.paragraph}>04:40 PM</p>

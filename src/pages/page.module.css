@@ -6,6 +6,12 @@
 	flex-wrap: wrap;
 	margin-top: 140px;
 }
+.home > * {
+	flex-grow: 1;
+}
+.home > *:nth-child(5) {
+	flex-grow: 0;
+}
 .coursePage {
 	min-width: 400px;
 	width: 74vw;
